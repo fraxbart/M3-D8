@@ -1,0 +1,88 @@
+body{
+    background-color: #010100 !important;
+}
+
+.barra{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav a{
+   margin: 10px;
+}
+
+.titolo{
+
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 10px;
+color: white;
+
+}
+.icons{
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.form-inline{
+    padding-left: 60px;
+}
+
+.input-black-bg {
+    background-color: #010100 !important;
+
+}
+
+.titolo{
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.titoloimage{
+    padding-left: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.link {
+    padding: 50px;
+  }
+  
+  .sub-links ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .sub-links a {
+    color: var(--dark);
+    text-decoration: none;
+  }
+  
+  .sub-links a:hover {
+    color: var(--dark);
+    text-decoration: underline;
+  }
+  
+  .logos a{
+    padding: 10px;
+  }
+  .logo {
+    color: var(--dark);
+    margin-bottom: 20px;
+  }
+footer {
+    padding: 20px;
+    text-align: left;
+    color: var(--dark);
+    margin: 10px;
+  }
